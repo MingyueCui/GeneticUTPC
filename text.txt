@@ -1,0 +1,5 @@
+~(a & b) & (d & ~e & ~f | ~d & e & ~f | ~d & ~e & ~f) & (a & c & (d | e) & h | a & (d | e) & ~h | b & (e | f))
+(a &((c | d | e) & g + a & f +c & (f | g | h | i)) | (a | b) & (c | d | e) & i) & ~(a & b) & ~(c & d) & ~ (c & e) & ~(d & e) & ~(f & g) & ~(f & h) & ~(f & i) & ~(g & h) & ~(h & i)
+(a & (~d | ~e | d & e & ~(~f & g & h & ~i) & ~(~f & g & l & k | ~g & ~i & k))| ~(~f & g & h & ~i | ~g & h & i) & ~(~f & g & l & k | ~g & ~i & k) & (b | c & ~m & f)) & (a & ~b & ~c | ~a & b & ~c | ~a & ~b & c)
+a & (~b | ~c) & d | e
+a & (~b | ~c | b & c & ~(~f & g & h & ~i | ~g & h & i) & ~(~f & g & l & k | ~g & ~i & k)) | f
